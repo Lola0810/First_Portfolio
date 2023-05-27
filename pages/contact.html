@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Lola Navarro | Contact</title>
+    <link rel="stylesheet" href="../src/style/style.css">
+    <link rel="icon" type="image/png" href="../src/img/Logo.png">
+</head>
+<body id="contact">
+    <header>
+        <!-- Image de profile -->
+        <img src="../src/img/Logo.png" alt="Logo">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="projects.html">Projets</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <!-- Décoration à gauche -->
+        <img class="ligne_vectorielle3" src="../src/img/ligne_vectorielle3.png" alt>
+
+        <!----- Bloc du formulaire ----->
+        <div id="message">
+            <!-- Description du message -->
+            <div id="description_message">
+                <h2>Envoyez moi un message</h2>
+                <h3>Que ce soit pour en savoir plus sur moi, ou pour me proposer de nouveaux projets. N'hésitez pas ! </h3>    
+            </div>
+            
+            <!-- Formulaire -->
+            <form action="https://beta.nathanaelpean.fr/external/mail" method="POST" id="formulaire">
+                <div class="inline">
+                    <!-- Input name -->
+                    <div id="name">
+                        <label for="nom">VOTRE NOM</label>
+                        <input type="text" name="nom"/>
+                    </div>
+                    <!-- Input email -->
+                    <div id="email">
+                        <label for="mail">VOTRE ADRESSE MAIL</label>
+                        <input type="email" name="mail"/>
+                    </div>
+                </div>
+                
+                <!-- Input box message -->
+                <div>
+                    <label for="message">VOTRE MESSAGE</label>
+                    <textarea name="message" placeholder= "Bonjour, j'ai pu voir votre profil et vos compétences et il m'intéresse. Serait-il possible d'en discuter avec vous ?"></textarea>
+                </div>
+
+                <!-- Pour l'envoi du formulaire -->
+                <input type="hidden" name="token" value="523ddf67c02faeca1aee6f635996f0f7">
+                <input type="hidden" name="redirect_pass" value="redirect_pass">
+                <input type="hidden" name="redirect_error" value="redirect_error">
+
+                <!-- Bouton envoyer le formulaire -->
+                <button type="submit" name="envoie">
+                    ENVOYER
+                    <img src="../src/img/Arrow.svg" alt="Flèche">
+                </button>
+            </form>
+        </div>
+    </main>
+    
+    <footer>
+        <span>&copy; Lola Navarro 2022</span>
+        <!-- Liens utiles -->
+        <nav>
+            <a href="https://github.com/Lola0810"><img src="../src/img/GitHub.png" alt="Github"></a>
+            <a href="https://www.linkedin.com/in/lola-navarro/"><img src="../src/img/LinkedIn.png" alt="LinkedIn"></a>            
+        </nav>
+    </footer>
+</body>
+</html>
