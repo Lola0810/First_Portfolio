@@ -1,5 +1,4 @@
 # PROJET DE SAE 204 - Portfolio
-## Rendu final
 
 ### Ce que j'ai abandonné par rapport à la maquette :
 - Pouvoir changer la langue du site internet
@@ -13,7 +12,6 @@
 
 ### Au niveau du contenu : 
 - Je n'ai pas implémenté le contenu de mes vrais projets car j'attends d'avoir une base de donnée de projets plus professionnels pour pouvoir les mettre sur mon Portfolio mais le fichier projects.js est déjà prêt à accueilir le contenu de mes projets.
-- Sinon tous les textes sont les textes finaux qui ne seront pas modifiés.
 
 ### Au niveau du design :
-J'ai essayé de faire un design épuré, professionnel et me représentant.
+J'ai essayé de faire un design épuré et me représentant.
